@@ -1,0 +1,1212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Beauty Spa - HTML5 Responsive template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/ProximaNovaA-Semibold.css">
+    <link rel="stylesheet" href="fonts/ProximaNova-Extrabld.css">
+    <link rel="stylesheet" href="fonts/ProximaNovaA-Regular.css">
+    <link rel="stylesheet" href="fonts/ProximaNovaA-Bold.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    <style>
+        .row.price2 {
+            margin-top: 48px;
+        }
+
+        /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+        .flip-card {
+            background-color: transparent;
+            width: 100%;
+            height: 250px;
+            border: 1px solid #f1f1f1;
+            perspective: 1000px;
+            /* Remove this if you don't want the 3D effect */
+        }
+
+        /* This container is needed to position the front and back side */
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        /* Do an horizontal flip when you move the mouse over the flip box container */
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        /* Position the front and back side */
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            /* Safari */
+            backface-visibility: hidden;
+        }
+
+        /* Style the front side (fallback if image is missing) */
+        .flip-card-front {
+            background-color: #bbb;
+            color: black;
+        }
+
+        /* Style the back side */
+        .flip-card-back {
+            background-color: #ddd5c5;
+            color: maroon;
+            font-size: 15px;
+            transform: rotateY(180deg);
+            overflow: hidden;
+        }
+
+        .inner-menu-box li {
+            font-size: 20px;
+        }
+
+        .tablink {
+            background-color: rgb(14, 48, 14);
+            padding-top: 10px;
+            padding-bottom: 20px;
+            color: golden;
+        }
+
+        body {
+            padding: 10px;
+
+        }
+
+
+        #exTab2 h3 {
+            color: white;
+            background-color: #6a5016;
+            padding: 5px 15px;
+        }
+        #exTab2 li{
+            font-size: large;
+        }
+        .tab-pane {
+            font-size: 20px;
+            
+    font-family:'ProximaNovaA-Regular';
+        }
+       .whatsapp_float{
+          text-align: right;
+          position: fixed;
+          bottom: 50px;
+
+          font-size: 50px;
+       }
+#gallery .col-sm-4{
+    margin-top: 50px;
+}
+#packgae h2{
+    color: black;
+}
+.table-content img{
+    border-radius: 15px;
+}
+.table-content{
+    margin-top: 50px;
+}
+        /* remove border radius for the tab */
+
+        /* change border radius for the tab , apply corners on top*/
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+    
+    <nav class="navbar navbar-default header-section">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="row">
+              <div class="col-sm-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/ass.jpeg" width="90" height="10" alt="" class="img-responsive">
+                    </a>
+                </div>
+    
+              </div>
+              <div class="col-sm-10">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packgae">Packages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                  
+                </div>
+              <!-- </div>
+          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+          <!-- /.navbar-collapse 
+          
+      </div> -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="cover-section" id="top-button">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown animated">
+                    <div class="slider-item">
+                        <img src="img/ASS.png" width="150" height="144" alt="">
+                        <h2>WELCOME TO ARAYA SPA</h2>
+                        <p>Providing greate services for more than 5 years !. </p>
+                    </div>
+                    <div class="purifliy-item wow fadeInDown animated ">
+                        <h3>CLEANSE PURIIFY ENERGIZE</h3>
+                        <p style="color: white; font-size: medium;">There is an anti-aging revolution occurring in
+                            healthcare today and that you are the main beneficiary. Nowhere in the field of anti-aging
+                            medicine are the breakthroughs and technological advances more exciting, more relevant and
+                            more readily available for immediate application and benefit to you than in the field of
+                            facial rejuvenation.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="purilfy-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    <div class="offer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown animated">
+                    <h4>Our Special Offer</h4>
+                    <h2 style="color: rgb(220, 193, 193);">" Oil Massage 45 min. for Only $59 "</h2>
+                    <a href="#">Make An Appointment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="benefit-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">YOUR BENEFITS TO WELL BEING</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.2s">
+                    <h3>RELAX</h3>
+                    <a ><img src="image/beneifit1.png" width="207" height="208" class="img-responsive"
+                            alt=""></a>
+                    <h2>Spa</h2>
+                    <p>"We Release Your Stress of Body and Mind"</p>
+                </div>
+                <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.4s">
+                    <h3>RENEW</h3>
+                    <a><img src="image/benefit2.png" width="207" height="208" class="img-responsive"
+                            alt=""></a>
+                    <h2>BEAUTY</h2>
+                    <p>"We Remove Your Aeon"</p>
+                </div>
+                <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.6s">
+                    <h3>REJUVENATE</h3>
+                    <a ><img src="image/benefit3.png" width="225" height="226" class="img-responsive"
+                            alt=""></a>
+                    <h2>YOGA</h2>
+                    <p>"We Always Bring You Youth"</p>
+                </div>
+                <div class="col-md-3 benefit-item wow fadeInDown animated" data-wow-delay="0.4s">
+                    <h3>RENEW</h3>
+                    <a ><img src="image/benefit2.png" width="207" height="208" class="img-responsive"
+                            alt=""></a>
+                    <h2>BEAUTY</h2>
+                    <p>"We Remove Your Aeon"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  wow fadeInDown animated" >
+                    <h2 class="section-title">ABOUT US </h2>
+                 
+                        
+                       <p class="justify-content-between"> Established In The Year 2015 , The Belief & Customer Satisfaction Is Important For Us 
+                           Araya Spa in Koregaon Park has a wide range of products and services to cater to the varied
+                        requirements of their customers. The staff at this establishment are courteous and prompt at
+                        providing any assistance. They readily answer any queries or questions that you may have.
+                        Pay for the product or service with ease by using any of the available modes of payment,
+                        such as Cash, Debit Cards, Cheques, American Express Card, Credit Card.</p>
+                    
+                    <p>
+                        Pune is a top player in the category Beauty Spas in the Pune. This well-known establishment acts
+                        as a one-stop destination servicing customers both local and from other parts of Pune. Over the
+                        course of its journey, this business has established a firm foothold in it’s industry. The
+                        belief that customer satisfaction is as important as their products and services, have helped
+                        this establishment garner a vast base of customers, which continues to grow by the day. This
+                        business employs individuals that are dedicated towards their respective roles and put in a lot
+                        of effort to achieve the common vision and larger goals of the company. In the near future, this
+                        business aims to expand its line of products and services and cater to a larger client base. In
+                        Pune, this establishment occupies a prominent location in Koregaon Park. It is an effortless
+                        task in commuting to this establishment as there are various modes of transport readily
+                        available. It is at Vishal Lane No 7, Oppsite to HDFC Bank, which makes it easy for first-time
+                        visitors in locating this establishment. The popularity of this business is evident from the
+                        100+ reviews it has received from Justdial users. It is known to provide top service in the
+                        following categories: Beauty Spas, Body Massage Centres, Beauty Spas For Men, Thai Body Massage
+                        Centres, Beauty Spas For Women, Unisex Spas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div class="client-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">Clients about Us</h2>
+                    <p class="title-cap">Best Teachers Are Here For You</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="client-item wow fadeInDown animated" data-wow-delay="0.2s">
+                        <div class="client-content">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <a href="#"><img src="image/client1.png" alt=""> </a>
+                        <h3>Tanny Tan</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="client-item wow fadeInDown animated" data-wow-delay="0.5s">
+                        <div class="client-content">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <a href="#"><img src="image/client2.png" alt=""> </a>
+                        <h3>Georgie Drake</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="client-item wow fadeInDown animated" data-wow-delay="0.8s">
+                        <div class="client-content">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <a href="#"><img src="image/client.png" alt=""> </a>
+                        <h3>Elva McCoy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title-section">Blog Post</h2>
+                    <p class="title-cap">Clients review about us</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 wow fadeInDown animated" data-wow-delay="0.2s">
+                    <div class="row">
+                        <div class="col-md-3 blog-thumb">
+                            <a href="#"><img src="image/blog-item1.png" width="127" height="190" alt=""></a>
+                        </div>
+                        <div class="col-md-9 blog-content">
+                            <h3>Mina Norman</h3>
+                            <p>"We AreAlways Ready TO Make You Healthy " Established in the year 2015 The belief
+                                customer </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="row">
+                        <div class="col-md-3 blog-thumb">
+                            <a href="#"><img src="image/blog-item2.png" width="127" height="190" alt=""></a>
+                        </div>
+                        <div class="col-md-9 blog-content">
+                            <h3>Anny Ane</h3>
+                            <p>Becoming aware of your salon's surroundings and sanitary procedures is critical to keep
+                                your experience pleasant and healthy. Here are a few tips from BTG Cosmetics Inc</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-section" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">MENU </h2>
+                    <p class="section-cap">Check Our SPA's</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.2s">
+                    <div class="table-item gold">
+                        <img src="img/FOOT MASSAGE.jfif" alt="" width="100%" ; height="200px" ; >
+                        <h3>FOOT MASSAGE <br> 30 Min</h3>
+                        <a>1000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/FOOT MASSAGE1.jfif" alt="" width="100%" ; height="200px" ;>
+                        <h3>FOOT MASSAGE <br> 45 Min</h3>
+
+                        <a>1200 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/BACK AND NECK.jfif" alt="" width="100%" ; height="200px" ;>
+                        <h3>BACK AND NECK <br> 30 Min</h3>
+
+                        <a>1000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/BACK AND NECK1.jfif" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>BACK AND NECK <br> 45 Min</h3>
+
+                        <a>1200 Rs</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.2s" >
+                    <div class="table-item gold" style="height: 280px;">
+                        <img src="img/HEAD MASSAGE.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>HEAD MASSAGE 30 Min</h3>
+
+                        <a>1000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/HEAD MASSAGE1.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>HEAD MASSAGE <br> 45Min</h3>
+
+                        <a>1200 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/FRUIT SCRUB.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>FRUIT SCRUB <br> 30 Min</h3>
+
+                        <a >1500 Rs</a>
+                    </div>
+                </div>
+               
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold" style="height: 280px;">
+                        <img src="img/O3 FACIAL.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>O3 FACIAL</h3>
+
+                        <a >4000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.2s">
+                    <div class="table-item gold">
+                        <img src="img/DIAMOND FACIAL.webp" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>DIAMOND FACIAL</h3>
+
+                        <a>3000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/O3 CLEAN-UP.jfif" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>O3 CLEAN-UP </h3>
+
+                        <a>2000 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.5s">
+                    <div class="table-item gold">
+                        <img src="img/DIAMOND CLEAN-UP.webp" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>DIAMOND CLEAN-UP</h3>
+
+                        <a>1500 Rs</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/BLEACH FULL BODY.png" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>BLEACH FULL BODY</h3>
+
+                        <a>3000 Rs</a>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/TRADITIONAL THAI MASSAGE.jpg" alt="" width="100%" ; height="200px" ;>
+                         <h3>   Traditional Thai Massage</h3>
+
+                        <a>60min  2500 /   90min  3000</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/AROMA OLI THERAPHY.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>Aroma Oli Theraphy</h3>
+
+                        <a>60min 2500 /  90min  3000 </a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/SWEDISH(MEDIUN PRESSURE)MASSAGE.webp" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>Swedish(Mediun pressure)Massage</h3>
+
+                        <a>60min  2500 /   90min  3000 </a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/DEEP TISSUE MASSAGE(STRONG PRESSURE).jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>Deep Tissue Massage(Strong Pressure)</h3>
+
+                        <a>60min  3000 /  90min  3500 </a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/BALINESE (STRONG PRESSURE) MASSAGE.jfif" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>Balinese (Strong Pressure) Massage</h3>
+
+                        <a>60min  3000 /   90min 3500</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/LOMI-LOMI MASSAGE.jfif" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>Lomi-Lomi Massage</h3>
+
+                        <a>60min  3000 / 90min  3500</a>
+                    </div>
+                </div>
+                <div class="col-md-3 table-content wow fadeInDown animated" data-wow-delay="0.81s">
+                    <div class="table-item gold">
+                        <img src="img/SIGNATURE MASSAGE.jpg" alt="" width="100%" ; height="200px" ;>
+
+                        <h3>SIGNATURE MASSAGE</h3>
+
+                        <a>60min  2500 /  90min  3000</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- PILS Start-->
+
+       <div class="container-fluid" style=" background-color: #fbf8fb;">
+           <div class="row">
+               <div class="col-sm-12 text-center" style="margin: 50px;">
+               <h1> CHECK OUR SPECIALS SERVICES</h1>
+               </div>
+           </div>
+       </div>
+
+   
+    <div class="container-fluid" id="services" style="background-color:#ffffff; color: #5d4c4c; ">
+                             
+        <div id="exTab2" class="container" >
+            <div class="row ">
+                <div class="col-sm-12">
+                    <div class="col-sm-4 ">
+                        <ul class="nav " >
+                            <li class="active ">
+                                <a href="#1" data-toggle="tab" >Traditional Thai Massage</a>
+                            </li>
+                            <li><a href="#2" data-toggle="tab">Aroma Oli Theraphy </a>
+                            </li>
+                            <li><a href="#3" data-toggle="tab">Swedish(Mediun pressure)Massage</a>
+                            </li>
+                            <li><a href="#4" data-toggle="tab">Deep Tissue Massage(Strong Pressure)</a>
+                            </li>
+                            <li><a href="#5" data-toggle="tab">Lomi-Lomi Massage</a>
+                            </li>
+                            
+                            <li><a href="#6" data-toggle="tab">Balinese (Strong Pressure) Massage</a>
+                            </li>
+                            <li><a href="#7" data-toggle="tab">SIGNATURE MASSAGE</a>
+                            </li>
+                        </ul>
+                
+                    </div>
+    
+                    <div class="col-sm-8">
+                        <div class="tab-content " style="font-size: large;">
+                            <div class="tab-pane active" id="1" >
+                                <center>
+                                    <h3>TRADITIONAL THAI MASSAGE </h3>
+                                </center>
+                
+                                <h5>60 min ---- 2500</h5>
+                                <h5>90 min ---- 3000</h5>
+                                <p>What Is Traditional Thai Massage?</p>
+                                <p>
+                                    Thai massage, alsoknown as Naud bo-rarn in its traditional medical form, is a type of Asian bodywork
+                                    therapy that is based on the treatment
+                                    of the human body, mind and spirit.The therapy includes treating the electromagnetic or energetic
+                                    field that surrounds, infuses and brings
+                                    the body to life through pressure and/or manupulative massge.
+                                </p>
+                
+                                <p>
+                                    Benefits</p>
+                                <p>The benefits of Thai massage are numerous with the most predominant being the maintenance of good
+                                    health and its ability to treat a wide
+                                    spectrum of physical concern. Traditional Thai Massage is also well known for its ability to clear
+                                    the energy pathways.</p>
+                                <h5>The following are some of the benefits of Traditional Thai Massage.</h5>
+                                <p>1 Increase flexibility and range of movement.</p>
+                                <p>2 Eliminates muscle pain and muscle spams.</p>
+                                <p>3 Improve postural alignment.</p>
+                                <p>4 Calms the nervous system and promotes a deep sense of relaxation.</p>
+                                <p>5 increase energy level.</p>
+                                <p>6 Allows for a significant release of deep, emotional distress.</p>
+                                <p>7 Stimulates blood circulation and lymph drainage.</p>
+                                <p>8 Stimulates internal organs.</p>
+                                <p>9 Relieves fatigue, swollen limbs, painful joints, and headaches.</p>
+                            </div>
+                            <div class="tab-pane" id="2">
+                                <center>    <h3>Aroma oil Therapy(Soft & Mild Pressure</h3>   </center>
+                
+                                <h5>60min ---- 2500</h5>
+                                <h5>90min ---- 3000</h5>
+                                <p >What is Aromatherapy all about?  </p>
+                                <p>Aromatherapy is a fascinating alternative medicine that involves the use of volatile plant materials, also known as Essential oils that can be 
+                                   aromatically inhaled by patients of a wide variety of health conditions. It is often used to improve mood, change cognitive states, and can alsobe utilized
+                                   as a supplemental medicine.</p>
+                                   <p>As a holistic therapy, aromatherapy is believed to benefits both the mind and body. Here, the aromaticsubstances from a flower stimulates
+                                   the olfactory bulb and neurons. The desired emotional response(such as relaxation) is activated from the limbic system of the brain.
+                                   </p>
+                                   <h5>
+                                   Health Benefits Of Aromatherapy.</h5>
+                                   <p>1 Boost Memory Capacity.</p>
+                                   <p>2 Eliminate Of Feeling Of Depression.</p>
+                                   <p>3 Relieves Different types Of Pain In Body.</p>
+                                   <p>4 Increase circulation and energy level in body.</p>
+                                   <p>5 Help in treating constipation , indigestion and bloating.</p>
+                                   <p>6 Speed up healing process.</p>
+                                   <p>7 provides relieves from headache and migraine.</p>
+                                   <p>8 Boost immune system and digestive system.</p>
+                                   <p>9 Reduce severity and discomfort cause by psoriasis and eczema.</p>                                     
+                                    
+                            </div>
+                            <div class="tab-pane" id="3">
+                                <center>    <h3>Swedish (Medium Pressure) Massage. </h3>   </center>
+                
+                                <h5>60min ---- 2500</h5>
+                                <h5>90min ---- 3000</h5>
+                                <p class="fst-italic">
+                               What is Swedish massage?  </p>
+                                <p>
+                
+                               Massage is an ancient therapeutic treatment. countless civilization throughout history have reconized the healing power of human touch, especially
+                               in Eastern cultures(Ancient Rome, Greece, China abd Egypt). Swedish Massage gets it name from per Henrik Ling, a Swede who, in the 1800s looked at Eastern and 
+                               Western massage traditions and developed. his own scientific system of massage movements which forms the basis of many massage techniques today. This Swedish 
+                               Massage system includes long smooth strokes(effleurage), kneeding(pettrissage) and friction and tapping(tapotement) all of which work to rtelax tired and 
+                               aching muscles whilst encouraging the flow of blood and lymph and enhancing skintone.</p>
+                               <h5>
+                
+                               Health Benefits of Swedish Massage.</h5>
+                               <p>
+                               1 Reduction in muscle spams, pain and tension.</p>
+                               <p>2 Release if endorphins, the body's natural painkillers.</p>
+                               <p>3 Relaxation and therefore reduction in anxiety.</p>
+                               <p>3 Improved blood circulation.</p>
+                               <p>4 Improved lymphatic drainage.</p>
+                               <p>5 Improved mobility.</p>
+                               <p>6 Reduction of swelling caused byan accumulation of fluid in the tissues.</p>
+                               <p>7 Balancing the overall flow of natural life energy through the body.</p>
+                               <p>8 inducing a feeling of well-being through the comfort of human touch.     </p> 
+                            </div>
+                            <div class="tab-pane" id="4">
+                                <center>    <h3>Deep Tissue Massage(Strong pressure). </h3>   </center>
+                
+                                           <h5>60min ---- 3000</h5>
+                                           <h5>90min ---- 3500</h5>
+                                           <p class="fst-italic">
+                                              What is Deep Tissue Massage All About?</p>
+                                              <p>
+                                              
+                                              Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension.
+                                              the focus is on the deepest layers of muscle tissue, tendons and fascia(the protective layer surroundingmuscles, bones and joints).
+                                              A study in the journal of Alternative and Complementary Medicine found that people's blood pressure fell after a single 45 to 60 minnute
+                                              deep tissue massage. Additionally, a 2010 meta-analysis in the Journal of Clinical Psychiatry found that massage modalities like deep
+                                              tissue reduce  stress hormone levels and heart rate while boosting mood and relaxation by triggering the release of oxytocin and serotonin.
+                                              </p>
+                                              <h5>
+                                              
+                                              Benefits Of Deep Tissue massage.</h5>
+                                              <p>
+                                              1 Deep Tissue massage offers stress relief.</p>
+                                              <p>2 Deep tissue massge eases pain.</p>
+                                              <p>3 deep tissue massage makes movement easier.</p>
+                                              <p>4 Deep tissue massage can lower heart rate and blood pressure.</p>                                          
+                                           
+                            </div>
+                            
+                            <div class="tab-pane" id="5">
+                                <center>    <h3>Lomi-Lomi Massage </h3>   </center>
+                                 
+                                <h5>60min ---- 3000</h5>
+                                <h5>90min ---- 3500</h5>
+                                <p class="fst-italic">What is Lomi-Lomi all about?</p>
+                                <p>Lomi lomi massage is traditional polynesian technique that bears repeating. Literally,That's because the tern lomi lomi(or "Lomilomi")means "massage",but in this case it refers to a spiritualtechnique based on the Hawaiian philosophy of "huna", and how it relates to our  bodies .</p>
+                                <p>In strict terms, huna means  "secret", but it has come to define abroad and complex set of beliefs that encompass philosophy,teachings,bodywrok,practices such as massage and energy flow.The goal is to find harmony in every aspect of our lives.</p>
+                                <h5>Benefit Of Lomi-Lomi Massage</h5>
+                                <p>1 Release Tension</p>
+                                <p>2 Remove Old Stress</p>
+                                <p>3 Improve Blood circulation</p>
+                                <p>4 Improve nutrition</p>
+                                <p>5 Improve physical state</p>
+                                <p>6 improve state of mind</p>
+                                <p>7 improve relaxation</p>
+                                <p>8 Strengthen our body</p>
+                                <p>9 Empowering</p>
+                                    
+                                     </div>
+                                     
+                
+                                   
+                            <div class="tab-pane" id="6">
+                                <center>    <h3>Balinese (strong Pressure)Massage. </h3>   </center>
+                         
+                                <h5>60min ---- 3000</h5>
+                              <h5>90min ---- 3500</h5>
+                              <p class="fst-italic">
+                            What is Balinese massage all about??</p>
+                            <p>
+                
+                            Balinese massage is one form of traditional indonesian massge.Originating on the island of Ball, this massage involves a combination of techniques, including massage, acupressure , reflexology, and aromatherapy into one session.Often used for relaxation, this of massage can also help loosen muscles and ease pain.</p>
+                            <h5>
+                
+                            Health Benefit Of Balines</h5>
+                
+                            <P><b>Stress-</b> Acupressure on pressure points,reflexology and features simple Swedish massage you and kneading helps relieve stress within the organization.</P>
+                            <P><b>Muscle pain-</b>Acupressure is a technique of deep therapeutic massage that improves the state of stiff muscle groups. The body benefits being relieved of acute and chronic muscle pain. Features fresh assistance also in the stimulation and soothing muscle problem that causes various type of bodily pain</P>
+                            <P>
+                
+                            <b>Sleep problems-</b>balinese massage improve sleep pattern of the customer by the moderation body and defining the spirit in a good
+                            state, thus allowing sleeping pattern appropriate to occure.
+                            </P>
+                            <P>
+                            Anxiety and depression-Nerve stimulation of reflexology and you sends massage to the brain thus manipulate the emotion to succumb to better mental condition.Balinese massage is good in the treatment and eliminating anxiety and depression.</P>
+                
+                              
+                            </div>
+                            <div class="tab-pane" id="7">
+                                <center>    <h3>SIGNATURE MASSAGE </h3>   </center>
+                
+                                        <h5>90min ---- 5000</h5>
+                
+                                        <p>Massage is a muscle specific form of massage and is typically used before, during, and after athletic activity. 
+                                        The purpose of the massage is to prepare your body for peak performance, to drain away fatigue, to relieve 
+                                        swelling, to reduce muscle tension, to promote flexibility and to prevent injuries.</p>
+                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- -->
+ 
+
+    <div class="offer-section"  style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInDown animated">
+                    <h4>NEW SERVICES</h4>
+                    <h2>" NEW Spa's Now In Our City "</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- SLIDER START-->
+
+
+    <!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators 
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides 
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/herbal.jpg" alt="..." style="width: 100%; height: 400px;">
+            <div class="carousel-caption">
+              ...hello this is 1
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/abt1.jpg" alt="..." style="width: 100%; height: 400px;">
+            <div class="carousel-caption">
+              ... hello this is 2
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/event-private.jpg" alt="..." style="width: 100%; height: 400px;">
+            <div class="carousel-caption">
+              ... hello this is 3
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls 
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+
+   
+    <!-- SLIDER END-->
+
+    <!-- card flip start-->
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-4 "  style="margin-top: 50px;">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/herbal.jpg" alt="Avatar" style="width:100%;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Herbal Body Wrap</h1>
+                                <ul>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                </ul>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 "  style="margin-top: 50px;">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/Herbal-Body-Wrap.jpg" alt="Avatar" style="width:100%;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Paraffin Body Wrap</h1>
+                                <p class="fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                    magna aliqua.
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                </ul>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 "  style="margin-top: 50px;">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/Paraffin-Body-Wrap.jpg" alt="Avatar" style="width:100%;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>Mineral Springs Spa</h1>
+                                <ul>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                        voluptate velit.</li>
+                                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.</li>
+                                </ul>
+                                <p>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate
+                                    velit esse cillum dolore eu fugiat nulla pariatur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+  
+
+    <div class="container" id="gallery" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-sm-12">
+               <center> <h1>Gallery</h1></center>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid"  id="gallery">
+        <div class="row">
+            <div class="col-sm-4 ">
+                <img src="img/Herbal-Body-Wrap.jpg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/Herbal-Body-Wrap1.jpg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/about-bg.jpg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+                <div class="col-sm-4">
+                    <img src="img/g1.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/g2.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/g3.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+                </div>
+            <div class="col-sm-4">
+                <img src="img/g4.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/g5.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+            <div class="col-sm-4" >
+                <img src="img/g6.jpeg" alt="img/Herbal-Body-Wrap" style="width: 100%; height: 300px;">
+            </div>
+        </div>
+    </div>
+   
+
+
+    <div class="container-fluid" style=" background-color: #fbf8fb;" id="packgae">
+        <div class="row">
+            <div class="col-sm-12 text-center" style="margin: 50px;">
+            <h1> Our Special Packages</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-top: 20px;">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 style="color:maroon; "><b> Any 7 Massage =Rs.25,000</b></h2>
+                <h4>(Can redeem any massage within 5 months)</h4>
+            </div>
+            <div class="col-sm-3">
+               <h2 style="color:maroon; "><b> 12 Massage =Rs.50,000</b></h2>
+               <h4>(Can redeem any massage within 10 months)</h4>
+            </div>
+            <div class="col-sm-2">
+                <h2 style="color:maroon; "> <b>Couple Massage </b></h2>
+                <h4>60min---5000
+
+                    90min---8000</h4>
+             </div>
+             <div class="col-sm-2">
+                <h2 style="color:maroon; "><b>Massage =Rs.6,000</b> </h2>
+                <h4>1 Swedish (Medium Pressure)</h4>
+
+                    <h4> 2 Aroma Oil </h4>
+                    
+                    <h4> Traditional Thai-60min</h4>
+             </div>
+             <div class="col-sm-2">
+                <h2 style="color:maroon; "><b> Massage =Rs.6,000 </b></h2>
+                <h4>1 Deep Tissue(Strong Pressure))</h4>
+
+                    <h4> 2 Lomi-Lomi</h4>
+                    
+                    <h4> 3 Balinese- 60min</h4>
+             </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                   <img src=im"g/paraff.jpg" class="img-fluid " alt="">
+                </div>
+                <div class="col-md-6">     <h3>Paraffin Body Wrap</h3> </div>
+            </div>
+        </div>
+ 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <p class="fst-italic">
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                       magna aliqua.
+                     </p>
+                     <ul>
+                       <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                       <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                       <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                     </ul>
+                     <p>
+                       Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                       velit esse cillum dolore eu fugiat nulla pariatur
+                     </p>
+                </div>
+            </div>
+        </div> -->
+
+
+    <div class="container" id="contact" style="margin-top: 50px;">
+        <div class="row">
+            <div class="card col-md-12 ">
+                <center>
+                    <h1>Book a Appointment</h1>
+                </center>
+              <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">NAME</label>
+                        <input type="name" class="form-control" id="exampleInputEmail1" placeholder="FULL NAME">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">EMAIL</label>
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="EMAIL ADDRESS">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">PHONE</label>
+                        <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="PHONE NUMBER">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">MESSAGE</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default ">Submit</button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px" >
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.8382895443165!2d73.89178611489302!3d18.536208387399867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1061a83bea9%3A0x9a48ed7699ceaa42!2sARAYA%20SPA!5e0!3m2!1sen!2sin!4v1640156422169!5m2!1sen!2sin"  frameborder="0"
+      style="border:0; width: 100%; height: 400px;"  allowfullscreen></iframe>
+  </div>
+  
+  <div class="container-fluid" style=" background-color: #fbf8fb;">
+      <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-2">
+                   
+          </div>
+          <div class="col-sm-6">
+              <h3></h3>
+              <h3></h3>
+                <h3></h3>
+                <h3></h3>
+          </div>
+      </div>
+  </div>
+  <!--Google Maps-->
+            </div>
+        </div>
+    </div>
+    <!-- Footer statred-->
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6 " style="text-align: start; font-size: 17px;">
+                    <h2>UserFul Links</h2>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Therapiest</a></li>
+                        <li><a href="#service">services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                     </div>
+                <div class="col-md-6" style="text-align: start;font-size: 17px;">
+                    <h1>Contact Information</h1>
+                    <h4> <span style="font-size: 23px; color: maroon;">location :</span>   B5,Hermes Vishal,Opp.HDFC Bank Ltd. Lane No.7,Koregaon Park,Pune:411001.</h4>   
+                    <h4><span style="font-size: 23px; color: maroon;"> Open Hours :</span>  Monday-Saturday: 11:00 AM - 10:00 PM </h4>
+                    <h4><span style="font-size: 23px; color: maroon;"> Email: </span>  example@gmail.com </h4>
+                    <h4> <span style="font-size: 23px; color: maroon;"> Call :</span>  +91 9689882525</h4>       
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1 col-md-offset-11 text-left">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+                    <a href="https://wa.me/+919689882525" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+                </div>
+            </div>
+        </div>
+       <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8" style="margin-top: 35px;">
+                <center> © Copyright Araya SPA. All Rights Reserved <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">Designed by ADC Technology Ltd. Pune</a></p>
+                </center>
+            </div>
+            <div class="col-sm-1">
+                <div class="top-button">
+                    <a href="#top-button" class="scroll"><i class="fa fa-arrow"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- Bootstrap core JavaScript
+                                                ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+<!-- Footer CLOSED-->
